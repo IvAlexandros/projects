@@ -47,7 +47,7 @@ The following tasks are to be solved:
   - Then we build a visualization of the dynamics of changes in expenses over time (by weeks and months) for each source.
   - Also we will find out how much it cost on average to attract one user (CAC) from each source.
   
-- Step 5. Evaluation of the payback of advertising\
+- Step 5. Evaluation of the payback of advertising
   - Analysis of the payback of advertising using LTV and ROI charts, as well as charts of the dynamics of LTV, CAC and ROI.
   - Checking user conversion and the dynamics of its change. The same for user retention. Building and studying conversion and retention charts.
   - Analysis of the payback of advertising by device. Plotting LTV and ROI graphs, as well as LTV, CAC and ROI dynamics graphs.
