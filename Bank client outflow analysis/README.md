@@ -2,7 +2,7 @@
 The dataset for the project is provided by the Yandex Practicum educational service. The project was carried out during the studying the profession "Data Analyst" in the Yandex Practicum.
 ## Brief goal and tasks of the project
 Datasets for analysis were provided by the educational service Yandex Practicum.\
-The purpose of the study is to identify activities that can be carried out retain those who may leave and possibly to bring back departed customers.
+The purpose of the study is to identify activities that can be carried out retain those who may leave and possibly to bring back departed customers.\
 Main tasks:
 - segment customers into compact homogeneous segments;
 - identify segments of customers who tend to leave the bank;
