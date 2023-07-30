@@ -18,17 +18,17 @@ The following tasks are to be solved:
   
 ## Decomposition of the work
 - Step 1 - Data preprocessing
-Downloading the data, studying what is presented there. Checking data types, bringing the column names to one style. Also exploring gaps in data.
+  - Downloading the data, studying what is presented there. Checking data types, bringing the column names to one style. Also exploring gaps in data.
 
 - Step 2 - Calculation of marketing campaign performance indicators
-Setting functions for calculating the necessary indicators of marketing campaign analysis: LTV, ROI, retention and conversion rate.
-These are functions for such metricks:
-- get_profiles() — to create user profiles,
-- get_retention() — calculation of Retention Rate,
-- get_conversion() — calculation of Conversion Rate,
-- get_ltv() — calculation of LTV
+  - Setting functions for calculating the necessary indicators of marketing campaign analysis: LTV, ROI, retention and conversion rate.\
+  These are functions for such metricks:
+  - get_profiles() — to create user profiles,
+  - get_retention() — calculation of Retention Rate,
+  - get_conversion() — calculation of Conversion Rate,
+  - get_ltv() — calculation of LTV
   
-As well as functions for plotting:
+  As well as functions for plotting:
 - filter_data() — for smoothing data,
 - plot_retention() — for plotting Retention Rate,
 - plot_conversion() — for plotting conversion,
