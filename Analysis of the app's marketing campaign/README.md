@@ -20,8 +20,8 @@ The following tasks are to be solved:
 - Step 1 - Data preprocessing
   - Downloading the data, studying what is presented there. Checking data types, bringing the column names to one style. Also exploring gaps in data.
 
-- Step 2 - Calculation of marketing campaign performance indicators
-  - Setting functions for calculating the necessary indicators of marketing campaign analysis: LTV, ROI, retention and conversion rate.\
+- Step 2 - Calculation of marketing campaign performance indicators\
+  Setting functions for calculating the necessary indicators of marketing campaign analysis: LTV, ROI, retention and conversion rate.\
   These are functions for such metricks:
   - get_profiles() — to create user profiles,
   - get_retention() — calculation of Retention Rate,
