@@ -1,5 +1,6 @@
 # In this repository there are folders with the most outstanding accomplished projects.
-1) Project "Analysis of the app's marketing campaign".\
+
+1) **Project "Analysis of the app's marketing campaign".**\
 This project was made during studying Data Analysis in Yandex Practicum.\
 Folder: "Analysis of the app's marketing campaign".\
 Python libraries: pandas, datetime, matplotlib, numpy.\
@@ -9,7 +10,7 @@ Main stages of work:\
 • LTV and ROI indicators are calculated and analyzed, LTV, CAC and ROI dynamics charts are plotted.\
 • The most and least effective channels of attraction are identified and recommendations for the marketing department are formulated.
 
-2)Project "Bank client outflow analysis".\
+2) **Project "Bank client outflow analysis".**\
 This project was made during studying Data Analysis in Yandex Practicum.\
 Folder: "Bank client outflow analysis".\
 Python libraries: pandas, matplotlib, numpy, seaborn, scipy, plotly, statsmodels.stats.proportion, pylab\
