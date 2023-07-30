@@ -8,28 +8,29 @@ Main tasks:
 - identify segments of customers who tend to leave the bank;
 - form recommendations for retaining customers and returning those who have left.
 ## Decomposition of the work
-1) Examining general information: what kind of data is presented and what information is available to us.\
+1) Examining general information: what kind of data is presented and what information is available to us.
 2) Data preparation:
 * Investigate data types and replace them if necessary;
 * Encode categorical variables in the column with the city and gender using the one-hot method.
 * Study the column names and bring them to a single style;
 * Explore gaps: if possible, replace the omissions, delete or leave as is, depending on the type of omission:
-** Research how columns with omissions correlate with the available data;
-** MСAR omissions can be left or filled in with values that will not harm the distribution of column values.;
-** MAR - we can fill in with the average/median for each group associated with a omission, taking into account the number of gaps;
-** MNAR - it is impossible to fill in or delete omissions without additional justification, in such case the omissions will have to be left without intervention.
+  -- Research how columns with omissions correlate with the available data;
+  -- MСAR omissions can be left or filled in with values that will not harm the distribution of column values.;
+  -- MAR - we can fill in with the average/median for each group associated with a omission, taking into account the number of gaps;
+  -- MNAR - it is impossible to fill in or delete omissions without additional justification, in such case the omissions will have to be left without intervention.
 * Examine the data for explicit and implicit duplicates and delete them if allowed.
 3) Exploratory data analysis:
 * Examine the distribution of values of each column;
 * View indicators of descriptive statistics for columns;
 * Based on the average value, median, fashion, look at a typical customer in the context of high-quality and non-high-quality customers.
 * Correlation analysis:
-** Calculate and analyze correlations of data of all columns with a column with a sign of outflow using the phik coefficient;
-** Graphically display the correlation using correlation matrices with a color scale for visual analysis;
-** Select those parameters where the correlation score is higher than 10%.
+  -- Calculate and analyze correlations of data of all columns with a column with a sign of outflow using the phik coefficient;
+  -- Graphically display the correlation using correlation matrices with a color scale for visual analysis;
+  -- Select those parameters where the correlation score is higher than 10%.
 * Study of portraits of outgoing clients:
-** Compare quantitative portraits of clients, i.e. indicators of typical clients. Take the appropriate statistical value and calculate for each characteristic by how many percent this number is greater (less) for outflow clients compared to the non-outflow. What will be less than 10% modulo can be checked by stat. criterion for reliability.
-** For the selected continuous values, plot the probability distribution density for the outflow and non-outflow clients to determine the ranges where the outflow is stronger than for the dataset as a whole.
+  -- Compare quantitative portraits of clients, i.e. indicators of typical clients.\
+Take the appropriate statistical value and calculate for each characteristic by how many percent this number is greater (less) for outflow clients compared to the non-outflow. What will be less than 10% modulo can be checked by stat. criterion for reliability.
+  -- For the selected continuous values, plot the probability distribution density for the outflow and non-outflow clients to determine the ranges where the outflow is stronger than for the dataset as a whole.
 4) Test hypotheses:
 * For continuous variables use the Student's t-test or the Mann-Whitney u-test. Justify the choice. For the proportions test use the z-test for proportions.
 * Test the hypothesis of income differences between those customers who are ready to leave and those who remain.
