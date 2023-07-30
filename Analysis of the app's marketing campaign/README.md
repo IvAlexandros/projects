@@ -38,7 +38,7 @@ The following tasks are to be solved:
   - Creation of user profiles. Specification of the minimum and maximum dates for attracting users.
   - Finding out from which countries users come to the application and which country accounts for the biggest number of paying users.
   - We will build a table reflecting the number of users and the share of those who are paying from each country.
-  - We will find out which devices are used by customers and which devices are preferred by paying users. Let's build a table reflecting the number of users and the share of those paying for each device.\
+  - We will find out which devices are used by customers and which devices are preferred by paying users. Let's build a table reflecting the number of users and the share of those paying for each device.
   - Studying the advertising sources of engagement and determining the channels from which most of paying users came. Building a table reflecting the number of users and the share of payers for each engagement channel.
 
 - Step 4. Marketing.
