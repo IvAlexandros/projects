@@ -29,10 +29,10 @@ The following tasks are to be solved:
   - get_ltv() — calculation of LTV
   
   As well as functions for plotting:
-- filter_data() — for smoothing data,
-- plot_retention() — for plotting Retention Rate,
-- plot_conversion() — for plotting conversion,
-- plot_ltv_roi — for LTV and ROI visualization.
+  - filter_data() — for smoothing data,
+  - plot_retention() — for plotting Retention Rate,
+  - plot_conversion() — for plotting conversion,
+  - plot_ltv_roi — for LTV and ROI visualization.
 
 - Step 3. Exploratory data analysis
   - Creation of user profiles. Specification of the minimum and maximum dates for attracting users.\
