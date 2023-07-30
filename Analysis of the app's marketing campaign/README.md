@@ -17,7 +17,7 @@ The following tasks are to be solved:
 - what factors hinder the attraction of customers.
   
 ## Decomposition of the work
-- Step 1 - Data preprocessing.
+- Step 1 - Data preprocessing.\
   Downloading the data, studying what is presented there. Checking data types, bringing the column names to one style. Also exploring gaps in data.
 
 - Step 2 - Calculation of marketing campaign performance indicators.\
