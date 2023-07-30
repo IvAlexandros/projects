@@ -1,5 +1,4 @@
 # In this repository there are folders with the most outstanding accomplished projects.
-
 1) Project "Analysis of the app's marketing campaign".\
 This project was made during studying Data Analysis in Yandex Practicum.\
 Folder: "Analysis of the app's marketing campaign".\
